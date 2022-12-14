@@ -18,15 +18,24 @@ rel="stylesheet" />
                     <div class="logoml">
                         <a href="/"><img src="/img/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre"></a>
                     </div>
-                            <p class="barrabusqueda">Lugar para poner barra de búsqueda</p>
+                    <article class="search">
+                        <div class="search-bar">
+                            <input input for="search" type='text' name="barrabusqueda" id="barrabusqueda" placeholder="Buscar productos, marcas">
+                        </div>
+                        <div class="lupa">   
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </article>  
+                    <div class="hand-text">
                         <p><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</p>
-                </section>
+                    </div>  
+                    </section>
                     <article>
                         <div class="burger-menu">
                             <i class="fas fa-bars"></i>
                         </div>
                     </article>
-                <nav class="lista-flexbox">
+                <nav class="list-flexbox">
                     <ul class="lista-unica">
                         <li class="listaref"><a href="#">Ofertas</a></li>
                         <li class="listaref"><a href="#">Tiendas Oficiales</a></li>
@@ -45,27 +54,22 @@ rel="stylesheet" />
             <form action="/register" method="post">
                 <div class="formulario">
                     <label for="nombre"></label>
-                    <br>
                     <input type='text' name="nombre" id="nombre" placeholder="Indique su nombre y apellido" required>
                 </div>
                 <div class="formulario">
                     <label for="nombreusuario"></label>
-                    <br>
                     <input type='text' name="nombreusuario" id="nombreusuario" placeholder="Indique su nombre de usuari@" required>
                 </div>
                 <div class="formulario">
                     <label for="fechadenacimiento"></label>
-                    <br>
                     <input type='date' name="fechadenacimiento" id="fechadenacimiento" placeholder="Indique su fehca de nacimiento" required>
                 </div>
                 <div class="formulario">
                     <label for="domicilio"></label>
-                    <br>
                     <input type='text' name="domicilio" id="domicilio" placeholder="Indique su domicilio" required>
                 </div>
                 <div class="formulario">
                     <label for="perfil">Perfil de Usuario</label>
-                    <br>
                     <select name="perfil">
                         <option> -- Seleccione una opción</option>
                         <option> Comprar</option>
@@ -74,65 +78,30 @@ rel="stylesheet" />
                 </div>
                 <div class="formulario">
                     <label for="categorias">Categorias de Interés</label>
-                    <br>
+                    <div class="selection">
                         <input type="checkbox" name="categorias">Electro
                         <input type="checkbox" name="categorias">Moda
                         <input type="checkbox" name="categorias">Hogar
                         <input type="checkbox" name="categorias">Juguetería
                         <input type="checkbox" name="categorias">Vida Sana
+                    </div>    
                 </div>
                 <div class="formulario">
                     <label for="foto">Foto de perfil</label>
-                    <br>
                     <input type='file' name="foto" id="foto" accept=".jpg" placeholder="Inserte foto de usuari@" required>
                 </div>
                 <div class="formulario">
                     <label for="password"></label>
-                    <br>
                     <input type='password' name="password" id="password" placeholder="Password" required>
                 </div>
                 <div class="formulario">
-                    <label for="confpassword"></label>
-                    <br>
                     <input type='password' name="confpassword" id="confpassword" placeholder="Confirme Password" required>
                 </div>
                 <button type="reset">Borrar datos</button>
                 <button type="submit">Enviar</button>
         </main>
         <footer>
-            <section>                    
-                <div class="imgfoot">
-                    <i class="fa-regular fa-credit-card"></i>
-                </div>
-                <article>
-                    <h4>Pagá con tarjeta o en efectivo</h4>
-
-                        <p class="textofoot"> Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
-                        puntos de pago. ¡Y siempre es seguro!</p>
-                </article>
-                
-                <div class="imgfoot">  
-                    <i class="fa-solid fa-gift"></i>
-                </div>
-                <article> 
-                    <h4>Envío gratis desde $ 2.500 </h4>
-
-                        <p class="textofoot">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
-                        productos. Es un beneficio de Mercado Puntos.</p>
-                </article> 
-                
-                <div class="imgfoot">  
-                    <i class="fa-solid fa-user-shield"></i>
-                </div>
-                <article>     
-                    <h4>Seguridad, de principio a fin </h4>
-
-                        <p class="textofoot">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
-                        porque estás siempre protegid@.</p>
-
-                    <p class="textofoot"> Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
-                </article> 
-            </section>                
+        
         </footer>
-    </body>
+        </body>
 </html>

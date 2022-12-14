@@ -1,16 +1,24 @@
 /* MAIN */
 
+main{
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+
 .mainflex{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.bordesombra{
+.style-article{
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin: 5px;
+    margin: 10px;
     border-radius: 2%;
 }
 
@@ -18,12 +26,7 @@
     width: 50%;
 }
 
-.bordelogo{
-    width: 50%;
-    height: 50%;
-}
-
-.bordefoto{
+.style-img{
     width: 70%;
     display: flex;
     justify-content: center;
@@ -32,9 +35,12 @@
     margin-bottom: 1rem;
 }
 
-.bordetexto{
+.style-box{
     border: 1px solid #ebebeb;
     margin: 15px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
 }
 
 h3 {
@@ -47,31 +53,31 @@ h3 {
 }
 
 .camioncito{
-    margin: -24px 122px 6px;
+    margin: -24px 120px 6px;
     color: var(--Verde);
     font-size: 16px;
     background-color: #FFF;
     border: 1px solid #39b54a;
-    width: 42px;
-    height: 42px;
-    padding: 12px;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
     border-radius: 50%;
-    right: 20px;
+    right: 60px;
     top: -25px;
     transition: transform 450ms;
 }
 
-.bordesombra :hover .camioncito{
+.style-article :hover .camioncito{
     transform: rotate(-90deg);
 }
 
-.alineacionpd{
+.style-pd{
     display: flex;
     align-items: center;
     justify-content:space-evenly;
 }
 
-.precio {
+.price {
     display: flex;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -79,7 +85,7 @@ h3 {
     margin-bottom: 10px;
 }
 
-.descuento {
+.discount {
     display: flex;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -88,8 +94,7 @@ h3 {
     color: var(--Verde);
 }
 
-.nombreproducto {
-    display: none;
+.product-name{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: var(--Grisoscuro);
@@ -97,62 +102,6 @@ h3 {
     margin-bottom: 20px;
 }
 
-.bordesombra :hover .nombreproducto{
-    display: block; 
-}
-
-
-/* REGISTRO*/
-
-form{
-    text-align: center;
-}
-
-.tituloformulario{
-    font-size: 24px;
-    text-align: center;
-    margin-top: 20px;
-}
-
-.formulario{
-    display: flex;
-    flex-direction: column;
-    font-size: 18px;
-    color: #666;
-    text-align: center;
-    margin-top: 20px;
-    margin-left: 20%;
-    margin-right: 20%;
-    border-radius: 5px;
-}
-
-input{
-    color: #666;
-    margin: 5px;
-    border: none;
-    padding: 10px;
-    transition-property: border;
-    transition-duration: 450ms;
-}
-
-.formulario :hover {
-    border: 2px var(--Azul) solid;
-}
-
-button{
-    color: var(--Grisclaro);
-    background-color: var(--Azul);
-    text-align: center;
-    border-radius: 5px;
-    border: none;
-    padding: 5px;
-    width: 50%;
-    margin: auto;
-    margin-top: 20px;
-    transition-property: background-color;
-    transition-duration: 450ms;
-}
-
-button:hover{
-    background-color:  #0022AA;
+.style-article :hover .style-pd{
+    display: flex; 
 }

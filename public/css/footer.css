@@ -3,6 +3,11 @@ footer{
     justify-content: center;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.style-foot{
+    margin: 0px 20px;
 }
 
 .imgfoot{
@@ -13,7 +18,7 @@ footer{
     transition: 450ms;
 }
 
-.textofoot{
+.textfoot{
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     text-align: center;
@@ -21,6 +26,6 @@ footer{
 }
 
 .imgfoot:hover{
-    color:  #0022AA;
+    color: var(--azul);
 }
 

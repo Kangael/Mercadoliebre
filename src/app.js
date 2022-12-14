@@ -8,11 +8,11 @@ const path = require("path");
 // Usando recursos estáticos.
 app.use(express.static("public"));
 
-const port = process.env.port || 3033;
+const port = process.env.PORT || 3000;
  
 // Ponemos a escuchar el servidor
-app.listen(3033, () => {
-    console.log("Servidor corriendo en http://localhost:3033" + port)
+app.listen(3000, () => {
+    console.log("Servidor corriendo en http://localhost:3000" + port)
 });
  
 // Definimos las rutas a los distintos pedidos que nuestro sitio sabe responder
