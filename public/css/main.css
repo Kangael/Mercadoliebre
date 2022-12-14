@@ -100,8 +100,11 @@ h3 {
     color: var(--Grisoscuro);
     text-align: center;
     margin-bottom: 20px;
+    justify-content: center;
+    display: none;
+    transition-property: display;
 }
 
-.style-article :hover .style-pd{
+.style-article :hover .product-name{
     display: flex; 
 }

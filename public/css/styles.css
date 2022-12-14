@@ -25,15 +25,6 @@ body{
 }
 
 @media (min-width: 400px) {
-    .product-name{
-        display: none;
-        transition: display 450ms;
-    }
-
-    .product-name :hover{
-        display:inline;
-    }
-
     .search{
         display: none;
     }
@@ -46,10 +37,6 @@ body{
 @media (min-width: 550px) {
     .burger-menu{
         display: none;
-    }
-
-    .product-name{
-        display: block;
     }
 
     .search{
@@ -80,14 +67,6 @@ body{
     .mainflex li{
         display: flex;
         width: 22%;
-    }
-    .style-article{
-        box-shadow: #ebebeb;
-        transition: box-shadow 450ms;
-    }
-
-    .style-article:hover{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 }
 
