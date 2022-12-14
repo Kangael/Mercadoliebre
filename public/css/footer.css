@@ -1,0 +1,26 @@
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.imgfoot{
+    color: var(--Celeste);
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: 450ms;
+}
+
+.textofoot{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.imgfoot:hover{
+    color:  #0022AA;
+}
+
