@@ -2,7 +2,7 @@
 
 @import url(header.css);
 
-@import url(main.css);
+@import url(home.css);
 
 @import url(footer.css);
 
@@ -24,7 +24,7 @@ body{
     font-size: 12px;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 360px) {
     .search{
         display: none;
     }

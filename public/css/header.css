@@ -1,5 +1,5 @@
 header{    
-    background-color: var(--main-background);    
+    background-color: var(--main-background);   
 }
 
 .mlflex{
@@ -13,17 +13,25 @@ header{
 
 .search{
     display: flex;
+    flex-direction: row;
     width: 30%;
+    position: relative;
 }
 
+.search-bar{
+    display: flex;
+    width: 30%;
+} 
+ 
 .lupa{
     background-color: var(--Grisclaro);
     font-size: 1.5rem;
-    margin:auto;
+    margin-left: 175px;
+    margin-top: -40px;
     border: 1px black solid;
     width: 35px;
     height: 35px;
-    border-radius: 4px;
+    position: absolute;
 }
 
 .hand-text{
@@ -40,7 +48,6 @@ header{
     width: 30px;  
     margin: auto;
     margin-top: 20px;
-    margin-bottom: 20px;
     transition-property: background-color;
 }
 

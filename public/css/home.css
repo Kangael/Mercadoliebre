@@ -41,6 +41,7 @@ main{
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    position: relative;
 }
 
 h3 {
@@ -62,8 +63,9 @@ h3 {
     height: 36px;
     padding: 8px;
     border-radius: 50%;
-    right: 60px;
-    top: -25px;
+    right: -100px;
+    top: -15px;
+    position: absolute;
     transition: transform 450ms;
 }
 
