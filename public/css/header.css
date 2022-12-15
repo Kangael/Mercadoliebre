@@ -4,11 +4,12 @@ header{
 
 .mlflex{
     display: flex;
+    flex-wrap: nowrap;
     text-align: center;
 }
 
 .logoml{
-    width: 35%;
+    width: 40%;
 }
 
 .search{
